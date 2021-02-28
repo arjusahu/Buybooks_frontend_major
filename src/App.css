@@ -1,0 +1,14 @@
+.footer {
+  margin-top: 8rem;
+  padding: 1rem;
+  background-color: rgb(65, 64, 63);
+  color: snow;
+  width: 100vw;
+  height: 50px;
+  text-align: right;
+}
+@media screen and (max-width: 500px) {
+  .footer {
+    width: 100%;
+  }
+}

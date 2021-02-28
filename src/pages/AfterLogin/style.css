@@ -1,0 +1,99 @@
+* {
+  font-family: "Josefin Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+.accordion {
+  background-color: skyblue !important;
+  margin: 10px;
+}
+.panel-default > .panel-heading {
+  background-color: #000 !important;
+}
+.accotitle {
+  color: black !important;
+  background-color: #94ebcd;
+}
+.accotitle:hover {
+  box-shadow: 2px 2px 10px skyblue;
+}
+.actitle {
+  margin: 100px 10px 20px 10px;
+  text-align: center;
+  text-shadow: 2px 2px 2px skyblue;
+  text-decoration: underline;
+}
+.navbar1 {
+  background-color: black;
+  font-size: 22px;
+  height: 50px;
+  color: cornsilk;
+  font-size: bold;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 99;
+}
+.contatus {
+  height: 470px;
+}
+.carditem {
+  margin-top: 50px;
+  display: flex;
+  box-shadow: 2px 2px 10px skyblue;
+  /* justify-content: center;
+  text-align: center; */
+}
+@media screen and (max-width: 700px) {
+  .carditem {
+    height: 210px;
+    box-shadow: 4px 4px 10px skyblue;
+  }
+  .itemimg {
+    width: 100px !important;
+    height: 100px !important;
+  }
+
+  h5 {
+    font-size: 15px;
+  }
+  .itemdes {
+    height: 100px;
+    font-size: 11px;
+    margin: -20px 0px 0px 0px;
+  }
+}
+.buybooks {
+  margin-top: 150px;
+}
+.carditem:hover {
+  box-shadow: 8px 8px 15px skyblue, -6px -6px 15px skyblue;
+}
+
+.itemimg {
+  width: 190px;
+  height: 190px;
+}
+.itemdes {
+  background-color: #f4f9f9;
+  margin-left: 5px;
+  width: 1100px;
+  margin-top: 5px;
+}
+.afterbuy {
+  margin-top: 150px;
+  width: 700px;
+  margin-left: 50px;
+  background-color: #f4f9f9;
+  box-shadow: 2px 2px 5px skyblue;
+}
+.u1 {
+  font-size: 20px;
+  text-shadow: 2px 2px 5px skyblue;
+}
+@media screen and (max-width: 800px) {
+  .afterbuy {
+    width: 250px;
+  }
+}

@@ -1,0 +1,113 @@
+/* * {
+  font-family: "Roboto Mono", monospace;
+} */
+.navbar1 {
+  background-color: black;
+  font-size: 22px;
+  height: 50px;
+  color: cornsilk;
+  font-size: bold;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 99;
+}
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ccf2f4;
+  background-image: url("../images/back4.jpg");
+  background-size: cover;
+  height: 600px;
+}
+.login * {
+  border-radius: 15px !important;
+}
+.logText {
+  text-shadow: 2px 2px 5px white;
+}
+/* #register {
+  margin: -200px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ccf2f4;
+  background-image: url("../images/back4.jpg");
+  background-size: cover;
+  height: 800px;
+}
+#register * {
+  height: 40px;
+  margin: 0px 0px !important;
+  padding: 0px 0px !important;
+} */
+#register {
+  margin-top: 80px;
+  padding-top: 40px;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/back4.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+#register * {
+  width: 400px;
+  height: 30px;
+  margin: -2px 0px -5px 0px;
+  border-radius: 15px;
+  /* border: 9px black !important; */
+}
+.label {
+  width: 80px;
+  height: 10px;
+}
+@media screen and (max-width: 500px) {
+  #register * {
+    width: 250px;
+  }
+}
+.aboutus {
+  margin-top: 80px;
+  height: 2px;
+}
+/* .navbar{
+    background: transparent !important;
+   /* position: fixed; */
+/* z-index: 1; */
+
+.navbar-brand {
+  font-size: 2.1rem !important;
+  color: skyblue !important;
+  text-decoration: none !important;
+}
+.nav-link {
+  color: skyblue !important;
+  margin-right: 20px;
+}
+.navbar a {
+  font-size: 1rem;
+  text-transform: capitalize;
+  padding-right: 20px;
+}
+
+.menu_active {
+  /* font-weight: bold; */
+  /* border-bottom: 1px solid #565387; */
+}
+
+.navbar a:hover {
+  color: white !important;
+  text-decoration: underline;
+  /* width: 100vw !important; */
+}
+
+@media (max-width: 991px) {
+  .navbar-brand {
+    font-size: 1.5rem !important;
+  }
+}
