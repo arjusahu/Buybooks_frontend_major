@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch, Redirect } from "react-router-dom";
 import Footer from "./Footer";
 import Home from "./pages/Home";
 import Login from "./components/Login";
@@ -32,6 +32,7 @@ function App() {
         <Route exact path="/buybooks" component={Buybooks} />
         <Route exact path="/afterbuy" component={Afterbuy} />
         <Route exact path="/checkout" component={Checkout} />
+        <Redirect to="/" />
       </Switch>
       <Footer />
     </div>

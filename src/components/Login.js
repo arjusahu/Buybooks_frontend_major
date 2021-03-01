@@ -40,13 +40,19 @@ const Basic = () => (
                 width: "250px",
               }}
             >
-              <Field type="email" name="email" placeholder="Enter email" />
+              <Field
+                type="email"
+                name="email"
+                placeholder="Enter email"
+                required={true}
+              />
               <ErrorMessage name="email" component="div" />
               <Field
                 type="password"
                 name="password"
                 placeholder="Enter password"
                 style={{ marginTop: "20px" }}
+                required={true}
               />
               <ErrorMessage name="password" component="div" />
             </div>

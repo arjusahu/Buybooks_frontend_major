@@ -15,7 +15,7 @@ const Aboutus = () => {
           <Card.Header>About us</Card.Header>
           <Card.Body style={{ backgroundColor: "#ccf2f4" }}>
             <Card.Title>
-              BookScouter Pro has several powerful features targeted towards
+              Buybooks Pro has several powerful features targeted towards
               high-volume users:
             </Card.Title>
             <Card.Text>

@@ -18,7 +18,7 @@
 
 .text {
   padding: 100px 600px 100px 100px;
-  text-shadow: 2px 2px 10px skyblue;
+  text-shadow: 8px 8px 10px white;
   font-style: italic;
 }
 .cards {
@@ -36,5 +36,16 @@
   .text {
     padding: 50px 10px 50px 50px;
     font-size: 30px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .cardItem {
+    width: 500px;
+  }
+  .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 }

@@ -3,7 +3,7 @@ import "./App.css";
 
 const Footer = () => (
   <div className="footer">
-    <p>Copyright © 2020-2021 BuyBooks, Arju Sahu {"  "}</p>
+    <p id="ptag">Copyright © 2020-2021 BuyBooks, Arju Sahu {"  "}</p>
   </div>
 );
 

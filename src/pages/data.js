@@ -78,12 +78,14 @@ const item = [
       "Python Crash Course, 2nd Edition: A Hands-On, Project-Based Introduction to Programming",
     author: "Matthes, Eric",
     price: "120rs",
+    sub: "computer",
   },
   {
     src: imagei2,
     title: "The Art of Computer Programming, Volumes 1-4A Boxed Set",
     author: "Knuth, Donald",
     price: "130rs",
+    sub: "computer",
   },
   {
     src: imagei3,
@@ -91,12 +93,14 @@ const item = [
       "The Self-Taught Programmer: The Definitive Guide to Programming Professionally",
     author: "Althoff, Cory",
     price: "150rs",
+    sub: "computer",
   },
   {
     src: imagei4,
     title: "Fundamentals of Software Architecture: An Engineering Approach",
     author: "Richards, Mark; Ford, Neal",
     price: "180rs",
+    sub: "computer",
   },
   {
     src: imagei5,
@@ -104,12 +108,14 @@ const item = [
       "Software Design for Flexibility: How to Avoid Programming Yourself into a Corner",
     author: "Hanson, Chris; Sussman, Gerald Jay",
     price: "200rs",
+    sub: "computer",
   },
   {
     src: imagei6,
     title: "Learn C++ Quickly: A Complete Beginner’s Guide to Learning C++",
     author: "Quickly, Code",
     price: "180rs",
+    sub: "computer",
   },
   {
     src: imagei7,
@@ -117,12 +123,14 @@ const item = [
       "Building Thinking Classrooms in Mathematics, Grades K-12: 14 Teaching Practices for Enhancing Learning",
     author: "Liljedahl, Peter",
     price: "220rs",
+    sub: "maths",
   },
   {
     src: imagei8,
     title: "Math Without Numbers",
     author: "Beckman, Milo",
     price: "230rs",
+    sub: "maths",
   },
   {
     src: imagei9,
@@ -130,12 +138,14 @@ const item = [
       "The EduProtocol Field Guide Math Edition: 15 Student-Centered Lesson Frames for Math Mastery",
     author: "Lisa; Ruesch, Jeremiah",
     price: "240rs",
+    sub: "maths",
   },
   {
     src: imagei10,
     title: "Lost in Math: How Beauty Leads Physics Astray",
     author: "Hossenfelder, Sabine",
     price: "250rs",
+    sub: "maths",
   },
   {
     src: imagei11,
@@ -143,30 +153,35 @@ const item = [
       "Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy",
     author: "O'Neil, Cathy",
     price: "300rs",
+    sub: "maths",
   },
   {
     src: imagei12,
     title: "Math Skillbuilders (Grades 2 - 3) (Step Ahead)",
     author: "Golden Books",
     price: "320rs",
+    sub: "maths",
   },
   {
     src: imagei13,
     title: "Basic Physics: A Self-Teaching Guide, 3rd Edition",
     author: "Kuhn, Karl F.; Noschese, Frank",
     price: "330rs",
+    sub: "physics",
   },
   {
     src: imagei14,
     title: "The Essential Physics of Medical Imaging",
     author: "Bushberg PhD, Jerrold T.; Seibert PhD",
     price: "340rs",
+    sub: "physics",
   },
   {
     src: imagei15,
     title: "The Physics Book: Big Ideas Simply Explained",
     author: "DK",
     price: "350rs",
+    sub: "physics",
   },
 ];
 
