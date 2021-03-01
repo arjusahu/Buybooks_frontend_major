@@ -76,6 +76,10 @@ body {
   box-shadow: 4px 4px 8px black, -3px -3px 8px black;
 }
 
+.cardgroup {
+  padding-top: 40px;
+}
+
 .itemimg {
   width: 190px;
   height: 190px;
@@ -100,5 +104,41 @@ body {
 @media screen and (max-width: 800px) {
   .afterbuy {
     width: 300px;
+  }
+}
+
+.filter {
+  width: 500px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: rgba(18, 18, 61, 0.2);
+  color: #0a043c;
+  border-radius: 20px;
+  position: fixed;
+  top: 120px;
+  left: 0px;
+  right: 0px;
+  z-index: 90;
+  font-weight: bold;
+  font-size: 20px;
+  border: 2px 2px #0a043c;
+}
+.filter * {
+  margin: 10px;
+}
+.filter *:hover {
+  cursor: pointer;
+  text-shadow: 3px 3px white;
+}
+@media screen and (max-width: 550px) {
+  .filter {
+    width: 350px;
+  }
+  .filter * {
+    margin: 4px;
+    font-size: 15px;
   }
 }

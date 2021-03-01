@@ -7,13 +7,16 @@ import Filterlist from "../components/Filterlist";
 
 const Buybooks = () => {
   const [list, setList] = useState(item);
+  const [origi, setOrigi] = useState(item);
   return (
     <div className="buybooks">
       <Navbar22 />
-      {/* <Filterlist /> */}
-      {list.map((itm, index) => (
-        <Itemcard items={itm} key={index} />
-      ))}
+      <Filterlist setList={setList} origi={origi} />
+      <div className="cardgroup">
+        {list.map((itm, index) => (
+          <Itemcard items={itm} key={index} />
+        ))}
+      </div>
     </div>
   );
 };

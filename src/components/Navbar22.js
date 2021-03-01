@@ -62,16 +62,7 @@ function Navbar() {
                       BUY BOOKS
                     </NavLink>
                   </li>
-                  {/* <li className="nav-item active">
-                    <NavLink
-                      activeClassName="menu_active"
-                      className="nav-link"
-                      exact
-                      to="/"
-                    >
-                      SELL BOOKS
-                    </NavLink>
-                  </li> */}
+
                   <li className="nav-item">
                     <NavLink
                       activeClassName="menu_active"

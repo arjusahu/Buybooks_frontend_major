@@ -17,6 +17,7 @@ import imagei12 from "../images/imagei12.jpg";
 import imagei13 from "../images/imagei13.jpg";
 import imagei14 from "../images/imagei14.jpg";
 import imagei15 from "../images/imagei15.jpg";
+import imagei16 from "../images/imagei16.jpg";
 
 const homeData = [
   {
@@ -73,14 +74,16 @@ const que = [
 
 const item = [
   {
+    id: "1",
     src: imagei1,
     title:
-      "Python Crash Course, 2nd Edition: A Hands-On, Project-Based Introduction to Programming",
+      "Python Crash Course, A Hands-On, Project-Based Introduction to Programming",
     author: "Matthes, Eric",
     price: "120rs",
     sub: "computer",
   },
   {
+    id: "2",
     src: imagei2,
     title: "The Art of Computer Programming, Volumes 1-4A Boxed Set",
     author: "Knuth, Donald",
@@ -88,6 +91,7 @@ const item = [
     sub: "computer",
   },
   {
+    id: "3",
     src: imagei3,
     title:
       "The Self-Taught Programmer: The Definitive Guide to Programming Professionally",
@@ -96,6 +100,7 @@ const item = [
     sub: "computer",
   },
   {
+    id: "4",
     src: imagei4,
     title: "Fundamentals of Software Architecture: An Engineering Approach",
     author: "Richards, Mark; Ford, Neal",
@@ -103,6 +108,7 @@ const item = [
     sub: "computer",
   },
   {
+    id: "5",
     src: imagei5,
     title:
       "Software Design for Flexibility: How to Avoid Programming Yourself into a Corner",
@@ -111,6 +117,7 @@ const item = [
     sub: "computer",
   },
   {
+    id: "6",
     src: imagei6,
     title: "Learn C++ Quickly: A Complete Beginner’s Guide to Learning C++",
     author: "Quickly, Code",
@@ -118,14 +125,15 @@ const item = [
     sub: "computer",
   },
   {
+    id: "7",
     src: imagei7,
-    title:
-      "Building Thinking Classrooms in Mathematics, Grades K-12: 14 Teaching Practices for Enhancing Learning",
+    title: "Building Thinking Classrooms in Mathematics",
     author: "Liljedahl, Peter",
     price: "220rs",
     sub: "maths",
   },
   {
+    id: "8",
     src: imagei8,
     title: "Math Without Numbers",
     author: "Beckman, Milo",
@@ -133,14 +141,16 @@ const item = [
     sub: "maths",
   },
   {
+    id: "9",
     src: imagei9,
     title:
-      "The EduProtocol Field Guide Math Edition: 15 Student-Centered Lesson Frames for Math Mastery",
+      "The EduProtocol Field Guide Math, Student-Centered Lesson Frames for Math Mastery",
     author: "Lisa; Ruesch, Jeremiah",
     price: "240rs",
     sub: "maths",
   },
   {
+    id: "10",
     src: imagei10,
     title: "Lost in Math: How Beauty Leads Physics Astray",
     author: "Hossenfelder, Sabine",
@@ -148,6 +158,7 @@ const item = [
     sub: "maths",
   },
   {
+    id: "11",
     src: imagei11,
     title:
       "Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy",
@@ -156,6 +167,7 @@ const item = [
     sub: "maths",
   },
   {
+    id: "12",
     src: imagei12,
     title: "Math Skillbuilders (Grades 2 - 3) (Step Ahead)",
     author: "Golden Books",
@@ -163,6 +175,7 @@ const item = [
     sub: "maths",
   },
   {
+    id: "13",
     src: imagei13,
     title: "Basic Physics: A Self-Teaching Guide, 3rd Edition",
     author: "Kuhn, Karl F.; Noschese, Frank",
@@ -170,6 +183,7 @@ const item = [
     sub: "physics",
   },
   {
+    id: "14",
     src: imagei14,
     title: "The Essential Physics of Medical Imaging",
     author: "Bushberg PhD, Jerrold T.; Seibert PhD",
@@ -177,11 +191,20 @@ const item = [
     sub: "physics",
   },
   {
+    id: "15",
     src: imagei15,
     title: "The Physics Book: Big Ideas Simply Explained",
     author: "DK",
     price: "350rs",
     sub: "physics",
+  },
+  {
+    id: "16",
+    src: imagei16,
+    title: "Chemistry For Dummies (For Dummies (Lifestyle))",
+    author: "Moore,John T.",
+    price: "220rs",
+    sub: "chemistry",
   },
 ];
 
